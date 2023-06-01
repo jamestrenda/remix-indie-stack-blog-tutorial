@@ -1,5 +1,5 @@
-import type { ActionArgs } from "@remix-run/node";
-import { json, redirect } from "@remix-run/node";
+import type { ActionArgs } from "@vercel/remix";
+import { json, redirect } from "@vercel/remix";
 import { Form, useActionData } from "@remix-run/react";
 import { useEffect, useRef } from "react";
 
